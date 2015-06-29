@@ -1,0 +1,11 @@
+<ul class="nav nav-pills">
+	<li role="presentation" ng-class="MyHeaderController.isActive('main.homepage')">
+		<a ui-sref="main.homepage" >Home</a>
+	</li>
+	<li role="presentation" ng-class="MyHeaderController.isActive('main.first')">
+		<a ui-sref="main.first.index({id: 44})" >First</a>
+	</li>
+	<li role="presentation" ng-class="MyHeaderController.isActive('main.second')">
+		<a ui-sref="main.second.index({id: 42})">Second</a>
+	</li>
+</ul>

@@ -1,0 +1,15 @@
+{
+  "name": "ui-router-abstract-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Henrique Limas <henrique.lima@betha.com.br>",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.7.13",
+    "gulp": "^3.9.0"
+  }
+}
